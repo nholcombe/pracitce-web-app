@@ -1,0 +1,43 @@
+body {
+    background-color: #F87060;
+    color: white;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+  }
+  
+  li {
+    float: left;
+    width: 20%;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    font-size: 16pt;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 80px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #F87060;
+    color: white;
+  }
+  
+  .active {
+    border-bottom: 2px solid white;
+  }
+
+  .nav-words {
+      padding-top: 25px;
+  }
